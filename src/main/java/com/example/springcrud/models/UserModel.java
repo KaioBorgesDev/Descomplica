@@ -1,7 +1,6 @@
 package com.example.springcrud.models;
 
 import jakarta.persistence.*;
-import org.hibernate.boot.registry.selector.spi.StrategyCreator;
 import org.springframework.hateoas.RepresentationModel;
 
 import java.io.Serializable;
@@ -9,23 +8,24 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 @Entity
-@Table(name = "tb_product")
-public class ProductModel extends RepresentationModel<ProductModel> implements Serializable {
+@Table(name = "tb_users")
+public class UserModel extends RepresentationModel<UserModel> implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID idProduct;
+    private UUID idUser;
     private String name;
-    private BigDecimal value;
+    private String password;
 
 
-    public UUID getIdProduct() {
-        return idProduct;
+
+    public UUID getIdUser() {
+        return idUser;
     }
 
-    public void setIdProduct(UUID idProduct) {
-        this.idProduct = idProduct;
+    public void setIdUser(UUID idUser) {
+        this.idUser = idUser;
     }
 
     public String getName() {
@@ -36,11 +36,11 @@ public class ProductModel extends RepresentationModel<ProductModel> implements S
         this.name = name;
     }
 
-    public BigDecimal getValue() {
-        return value;
+    public String getPassword() {
+        return password;
     }
 
-    public void setValue(BigDecimal value) {
-        this.value = value;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

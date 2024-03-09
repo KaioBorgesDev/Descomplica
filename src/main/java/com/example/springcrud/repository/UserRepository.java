@@ -1,7 +1,7 @@
 package com.example.springcrud.repository;
 
 
-import com.example.springcrud.models.ProductModel;
+import com.example.springcrud.models.UserModel;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface ProductRepository extends JpaRepository<ProductModel, UUID>{
+public interface UserRepository extends JpaRepository<UserModel, UUID>{
 
 }
