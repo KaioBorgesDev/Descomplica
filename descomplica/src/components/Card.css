@@ -1,0 +1,42 @@
+.card{
+    margin-top: 40px;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    border: solid;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+}
+.card h2  {
+    margin: 0;
+    padding: 0;
+}
+.card h5 {
+    margin: 0;
+    
+}
+.card h4 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.card button{
+    margin-top: 40px;
+    border-radius: 15px;
+    border-width: 0.5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 10px;
+    border-color: gray;
+    border-width: 2px;
+}
+.card button:hover{
+    
+    cursor: pointer;
+    background-color: rgb(255, 238, 86);
+    transition: 0.2s;
+}

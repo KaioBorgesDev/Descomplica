@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato:wght@300&family=Noto+Sans:wght@700&family=Nunito+Sans:opsz,wght@6..12,700&family=Oswald:wght@600&family=Poppins:wght@100;200&family=Quicksand:wght@300&family=REM:wght@200&display=swap');
+
+.aside{
+    padding-top: 5%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 4%;
+    justify-content: space-between;
+}
+.aside img{
+    width: 24%;
+    
+}
+
+.aside p{
+    font-family: 'REM', sans-serif;
+    font-weight: 1000;
+    padding: 20px;
+    font-size: 20px;
+    width: 400px;
+}
+.aside h1{
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    width: 450px;
+    font-size: 40px;
+    font-weight: 600;
+}

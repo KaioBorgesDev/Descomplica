@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    width: 70%;
+    margin: 20px auto; 
+    padding-top: 30px;
+    font-weight: 600;
+    
+}
+
+.header img {
+    
+    padding-left: 60px;
+}
+
+.header a {
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.header button {
+    border-radius: 15px;
+    border-width: 0.5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 10px;
+    border-color: gray;
+    border-width: 2px;
+}
+
+header button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.oferta {
+    position: absolute;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 230, 0);
+}
+.oferta button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    white-space: nowrap;
+    font-weight: 600;
+    
+}
+.oferta button:hover{
+    cursor: pointer;
+}
